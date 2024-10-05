@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Alura - Em busca da Cidade Perdida</title>
+</head>
+<body>
+    <main>
+       <div class="passo ativo" id="passo-0">
+        <img src="https://pm1.aminoapps.com/7355/6e7612d4f187183ad6ecee864c20cf9337261bffr4-735-368_00.jpg" alt="Cenário">
+        <p>Um dia desse, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+        <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+        <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+       </div>
+       <div class="passo" id="passo-1">
+        <img src="https://acrilex.com.br/wp-content/uploads/2017/04/01_rio.jpg" alt="Rio de Janeiro">
+        <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+        <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+       </div>
+       <div class="passo" id="passo-2">
+        <img src="https://i.pinimg.com/originals/ce/df/00/cedf0024209719eae1dbd0f6bfd546b7.png" alt="Cidade de Olinda - Pernambuco">
+        <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+        <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+        <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+       </div>
+       <div class="passo" id="passo-3">
+        <img src="https://img.freepik.com/vetores-premium/um-desenho-de-desenho-animado-de-um-mapa-que-diz-quot-map-quot_917506-501452.jpg" alt="Pico da Tijuca">
+        <p>Você encontra um mapa que leva até um caminho com o X</p>
+        <button class="btn-proximo" data-proximo="7">Seguir o Mapa</button>
+        <button class="btn-proximo" data-proximo="8">Procurar por mais tempo</button>
+       </div>
+       <div class="passo" id="passo-4">
+        <img src="https://pm1.aminoapps.com/7111/40f18c989c8f0a94860f5e94b5f89696e129aafer1-732-412v2_hq.jpg" alt="Cenário">
+        <p>Você parou de ler e foi brincar na rua.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar ao Inicio</button>
+       </div>
+       <div class="passo" id="passo-5">
+        <img src="https://img.freepik.com/vetores-premium/igreja-catolica-edificio-catedral-desenho-animado-arquitetura-religiosa-exterior-vetor_939711-4321.jpg" alt="Igreja antiga">
+        <p>Você chegou até a igreja, mas não encontrou nada que possa ajudar ou traga mais pistas.</p>
+        <button class="btn-proximo" data-proximo="9">Olha para a fonte</button>
+        <button class="btn-proximo" data-proximo="0">Desistir e ir para casa</button>
+       </div>
+       <div class="passo" id="passo-6">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/6823045-praia-cartoon-cenario-fundo-vetor.jpg" alt="Cenário">
+        <p>Você chegou até a praia, você vê alguns banhista, crianças construindo castelos de areia. Você segue o mapa até se deparar com algumas rochas.</p>
+        <button class="btn-proximo" data-proximo="9">Procurar uma entrada ou pista</button>
+        <button class="btn-proximo" data-proximo="10">Desistir e ir brincar na água</button>
+        <button class="btn-proximo" data-proximo="0">Desistir e ir para casa</button>
+       </div>
+       <div class="passo" id="passo-7">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/7066700-grande-bau-de-tesouro-colorido-desenho-ilustracao-gratis-vetor.jpg" alt="Baú do Tesouro">
+        <p>Você chegou até a praia, você vê alguns banhista, crianças construindo castelos de areia. Você segue o mapa até se deparar com algumas rochas e ao cavar onde está o X, encontra um baú cheio de moedas de ouro</p>
+        <button class="btn-proximo" data-proximo="0">Pegar o baú e tesouros e ir para casa</button>
+       </div>
+       <div class="passo" id="passo-8">
+        <img src="https://scontent.fcgh5-1.fna.fbcdn.net/v/t31.18172-8/11958141_709432469188220_5965567732405087539_o.png?_nc_cat=102&ccb=1-7&_nc_sid=0327a3&_nc_ohc=klE0Xi2Co70Q7kNvgGoj1RY&_nc_ht=scontent.fcgh5-1.fna&_nc_gid=AgPB31dp6xr0L3_oR_bGJ7Z&oh=00_AYBOuV4_nu-AP0poJNPuPKgKr4_AI78fSPvNt6HJAkMpNg&oe=6726C9B5" alt="Imaginando o almoço">
+        <p>Ao virar a página, sua mãe o chama para almoçar e deixar para continuar mais tarde</p>
+        <button class="btn-proximo" data-proximo="0">Ir almoçar e voltar depois</button>
+       </div>
+       <div class="passo" id="passo-9">
+        <img src="https://i.ytimg.com/vi/vAgDsOcuf7A/sddefault.jpg" alt="Cenário">
+        <p>Você fica com muito calor, indo brincar na fonte</p>
+        <button class="btn-proximo" data-proximo="0">Brincar na água e ir para casa</button>
+       </div>
+       <div class="passo" id="passo-10">
+        <img src="https://organicsnewsbrasil.com.br/wp-content/uploads/2016/01/salvando-vidas-edit.jpg" alt="Cenário">
+        <p>Você passa o dia brincando na praia com seus amigos.</p>
+        <button class="btn-proximo" data-proximo="0">Se despedir e ir para casa</button>
+       </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
